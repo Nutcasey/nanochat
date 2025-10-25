@@ -1,0 +1,51 @@
+{
+  "enableAllProjectMcpServers": true,
+  "permissions": {
+    "allow": [
+      "Write",
+      "Edit",
+      "MultiEdit",
+      "Task",
+      "Grep",
+
+      "WebFetch",
+      "WebSearch",
+
+      "mcp__context7__*",
+      "mcp__context7__:*",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__get-library-docs",
+
+      "Bash(gradlew:*)",
+      "Bash(./gradlew:*)",
+
+      "Bash(mkdir:*)",
+      "Bash(uv:*)",
+      "Bash(find:*)",
+      "Bash(cat:*)",
+      "Bash(mv:*)",
+      "Bash(grep:*)",
+      "Bash(npm:*)",
+      "Bash(node:*)",
+      "Bash(ls:*)",
+      "Bash(cp:*)",
+      "Bash(jq:*)",
+      "Bash(nvm:*)",
+      "Bash(chmod:*)",
+      "Bash(touch:*)",
+      "Bash(cd:*)",
+      "Bash(sed:*)",
+      "Bash(echo:*)",
+      "Bash(javac:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": []
+  },
+  "hooks": {
+  },
+  "outputStyle": "Explanatory",
+  "apiKeyHelper": "",
+  "enabledMcpjsonServers": [
+    "context7"
+  ]
+}

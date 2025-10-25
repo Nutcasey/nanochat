@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 rustbpe/target/
 dev-ignore/
+
+.claude/.DS_Store
+
+.DS_Store
